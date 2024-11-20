@@ -15,66 +15,66 @@ sqa_criteria:
     repos:
       gitlab.onelab.info/gmsh/gmsh git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-ochre-gar.sh
-        container: qc.acc_gloppy-pear-wasp
+        - /usr/bin/env sh .sqa/script.whiny-brass-dingo.sh
+        container: qc.acc_flimsy-amaranth-bonobo
   QC.Doc:
     repos:
       gitlab.onelab.info/gmsh/gmsh find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-ecru-mist.sh
-        container: qc.doc_flimsy-maroon-snake
+        - /usr/bin/env sh .sqa/script.freaky-periwinkle-molly.sh
+        container: qc.doc_woozy-alizarin-coyote
       gitlab.onelab.info/gmsh/gmsh git:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-rust-opossum.sh
-        container: qc.doc_thirsty-cyan-weasel
+        - /usr/bin/env sh .sqa/script.bumpy-copper-caterpillar.sh
+        container: qc.doc_sleazy-apricot-dachsbracke
       gitlab.onelab.info/gmsh/gmsh markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-persimmon-coral.sh
-        container: qc.doc_sunny-bistre-mammoth
+        - /usr/bin/env sh .sqa/script.freaky-brown-zebu.sh
+        container: qc.doc_shaggy-heliotrope-birman
       gitlab.onelab.info/gmsh/gmsh restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-bistre-emu.sh
-        container: qc.doc_cheeky-mustard-warthog
+        - /usr/bin/env sh .sqa/script.gamy-harlequin-tetra.sh
+        container: qc.doc_stinky-cyan-bongo
   QC.Lic:
     repos:
       gitlab.onelab.info/gmsh/gmsh licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-magnolia-oyster.sh
-        container: qc.lic_whiny-buff-kingfisher
+        - /usr/bin/env sh .sqa/script.gloppy-amethyst-pinscher.sh
+        container: qc.lic_woozy-saffron-uakari
   QC.Sec:
     repos:
       gitlab.onelab.info/gmsh/gmsh bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-goldenrod-manatee.sh
-        container: qc.sec_paltry-white-lionfish
+        - /usr/bin/env sh .sqa/script.skimpy-lime-ostrich.sh
+        container: qc.sec_pasty-flax-argentino
   QC.Sty:
     repos:
       gitlab.onelab.info/gmsh/gmsh checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-mustard-bombay.sh
-        container: qc.sty_silly-beige-bullfrog
+        - /usr/bin/env sh .sqa/script.paltry-charcoal-pig.sh
+        container: qc.sty_craggy-pink-mist
       gitlab.onelab.info/gmsh/gmsh flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-chocolate-sparrow.sh
-        container: qc.sty_grumpy-sapphire-fowl
+        - /usr/bin/env sh .sqa/script.leaky-chartreuse-rat.sh
+        container: qc.sty_greasy-viridian-moose
       gitlab.onelab.info/gmsh/gmsh jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-seashell-goat.sh
-        container: qc.sty_cranky-turquoise-crab
+        - /usr/bin/env sh .sqa/script.pretty-violet-eleuth.sh
+        container: qc.sty_zippy-cobalt-fossa
       gitlab.onelab.info/gmsh/gmsh oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-copper-lemming.sh
-        container: qc.sty_stuffy-burgundy-magpie
+        - /usr/bin/env sh .sqa/script.dorky-burgundy-hare.sh
+        container: qc.sty_stinky-aqua-spaniel
   QC.Uni:
     repos:
       gitlab.onelab.info/gmsh/gmsh pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-taupe-magpie.sh
-        container: qc.uni_baggy-green-lobster
+        - /usr/bin/env sh .sqa/script.shaky-lemon-quail.sh
+        container: qc.uni_skimpy-azure-sheepdog
   QC.Ver:
     repos:
       gitlab.onelab.info/gmsh/gmsh get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-goldenrod-penguin.sh
-        container: qc.ver_skinny-cobalt-lion
+        - /usr/bin/env sh .sqa/script.flimsy-gamboge-fly.sh
+        container: qc.ver_homely-firebrick-maltese
 timeout: 5400
